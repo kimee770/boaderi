@@ -4,6 +4,81 @@
 
 @custom-variant dark (&:is(.dark *));
 
+/* Color variations based on primary #0F9F95 (Material color tool) */
+@theme {
+    /* Primary (#0F9F95) — base: 400 */
+    --color-primary-50: #e8f9f7;
+    --color-primary-100: #c4ece7;
+    --color-primary-200: #94d5cd;
+    --color-primary-300: #5dbab1;
+    --color-primary-400: #0f9f95;
+    --color-primary-500: #018a81;
+    --color-primary-600: #047870;
+    --color-primary-700: #01645d;
+    --color-primary-800: #01514b;
+    --color-primary-900: #013e39;
+
+    /* Complementary — base: 900 */
+    --color-complementary-50: #fff2f0;
+    --color-complementary-100: #ffe4e1;
+    --color-complementary-200: #ffc8c2;
+    --color-complementary-300: #ffa59d;
+    --color-complementary-400: #ff7e75;
+    --color-complementary-500: #fd5551;
+    --color-complementary-600: #eb4342;
+    --color-complementary-700: #d33032;
+    --color-complementary-800: #b91f24;
+    --color-complementary-900: #9f0f19;
+
+    /* Analogous (green) — base: 600 */
+    --color-analogous-a-50: #eafaed;
+    --color-analogous-a-100: #d0f6d7;
+    --color-analogous-a-200: #abe7b8;
+    --color-analogous-a-300: #81d595;
+    --color-analogous-a-400: #57c176;
+    --color-analogous-a-500: #2eb05d;
+    --color-analogous-a-600: #0f9f4d;
+    --color-analogous-a-700: #02853e;
+    --color-analogous-a-800: #016b30;
+    --color-analogous-a-900: #005223;
+
+    /* Analogous (blue) — base: 900 */
+    --color-analogous-b-50: #eef6ff;
+    --color-analogous-b-100: #deeefe;
+    --color-analogous-b-200: #bddeff;
+    --color-analogous-b-300: #93caff;
+    --color-analogous-b-400: #67b5fd;
+    --color-analogous-b-500: #49a3f2;
+    --color-analogous-b-600: #3994e2;
+    --color-analogous-b-700: #2983cd;
+    --color-analogous-b-800: #1a72b7;
+    --color-analogous-b-900: #0f619f;
+
+    /* Triadic (blue) — base: 900 */
+    --color-triadic-a-50: #f1f5ff;
+    --color-triadic-a-100: #dde7ff;
+    --color-triadic-a-200: #bbcfff;
+    --color-triadic-a-300: #94b3ff;
+    --color-triadic-a-400: #6e96ff;
+    --color-triadic-a-500: #4e79ff;
+    --color-triadic-a-600: #355efd;
+    --color-triadic-a-700: #2547e0;
+    --color-triadic-a-800: #1930c0;
+    --color-triadic-a-900: #0f199f;
+
+    /* Triadic (purple) — base: 600 */
+    --color-triadic-b-50: #fef0ff;
+    --color-triadic-b-100: #fdd3ff;
+    --color-triadic-b-200: #efacf2;
+    --color-triadic-b-300: #dc82e2;
+    --color-triadic-b-400: #c459cc;
+    --color-triadic-b-500: #ae32b7;
+    --color-triadic-b-600: #950f9f;
+    --color-triadic-b-700: #800089;
+    --color-triadic-b-800: #690071;
+    --color-triadic-b-900: #530059;
+}
+
 @theme inline {
     --font-heading: var(--font-sans);
     --font-sans: "Wanted Sans Variable", "Wanted Sans", -apple-system, BlinkMacSystemFont, system-ui, "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
